@@ -1,5 +1,3 @@
-services:
+build:
   vscodehero:
-    build: .
-  docker:
     web: Dockerfile
