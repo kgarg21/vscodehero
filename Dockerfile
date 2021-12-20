@@ -13,6 +13,8 @@ ENV SHELL=/bin/bash
 RUN sudo apt-get update && sudo apt-get install unzip -y
 RUN sudo apt-get install wget -y
 RUN sudo apt-get install python -y
+RUN sudo apt-get install screen -y
+RUN sudo apt-get install ffmpeg -y
 RUN curl https://rclone.org/install.sh | sudo bash
 
 # Copy rclone tasks to /tmp, to potentially be used
