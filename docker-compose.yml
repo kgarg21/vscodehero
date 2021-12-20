@@ -1,3 +1,6 @@
-build:
-  docker:
-    web: Dockerfile
+services:
+  mooncake:
+    build: .
+    shm_size: 2.6gb
+    ports:
+      - "8080"
