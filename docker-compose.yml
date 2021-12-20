@@ -1,5 +1,5 @@
 services:
   vscodehero:
-    build:
+    build: .
   docker:
     web: Dockerfile
